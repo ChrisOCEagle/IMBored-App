@@ -1,0 +1,111 @@
+div.jumbotron.container {
+    background-color: #ffffff;
+    border: 5px solid black;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#questions {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background: white;
+    margin-bottom: 40px;
+    padding: 20px 0px 20px 0px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+td {
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+}
+
+.form-check {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.questionheader {
+    font-size: 30px;
+}
+
+.form-check-input {
+    height: 18px;
+    width: 18px;
+}
+
+.btn-primary {
+    height: 50px;
+    width: 250px;
+    background: #552DEE;
+    margin-top: 20px;
+}
+
+img#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#slogan {
+    text-align: center; 
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+body {
+    background: linear-gradient(228deg, #7a67c4, #373541, #b2b0b9, #552dee);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+    font-family: Niramit;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+}
+
+hr {
+    border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: black;
+  height: 1px;
+}
